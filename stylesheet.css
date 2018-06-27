@@ -173,7 +173,7 @@ header{
   background-color: #FABFC9;
 }
 .carousel-item > img {
-  background-image: url("fun3.png"); 
+  background-image: url("fun3.png");
   background-size: cover;
   position: absolute;
   top: 0;
