@@ -36,10 +36,8 @@ $(function()
         }//else
     }
 
-<<<<<<< HEAD
-	
-=======
-	$('#reused_form').submit(function(e)
+
+/*	$('#reused_form').submit(function(e)
       {
         e.preventDefault();
 
@@ -62,6 +60,6 @@ $(function()
                 dataType: 'json' 
             });        
         
-      });	
->>>>>>> 708168349e3999527f88214e9af6d0116db35629
+      });*/	
+
 });

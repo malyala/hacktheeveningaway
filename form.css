@@ -22,16 +22,16 @@ display: block;
     font-weight: 600;
 }
 
-<<<<<<< HEAD
+
 .row a{
   text-decoration: none;
     color: #333;
     font-size: 2em;
     padding: 5px;
 }
-=======
 
->>>>>>> 708168349e3999527f88214e9af6d0116db35629
+
+
 label {
     cursor: default;
 }
