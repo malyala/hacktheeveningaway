@@ -34,6 +34,9 @@
               <a class="nav-link" href="#featurette1">Summary</a>
             </li>
             <li class="nav-item active">
+              <a class="nav-link" href="#faq">FAQ</a>
+            </li>
+            <li class="nav-item active">
               <a class="nav-link" href="#ppl">Organizers</a>
             </li>
           </ul>
@@ -41,17 +44,19 @@
       </nav>
     </header>
 
+
     <main role="main">
 
       <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img class="first-slide" src="hey" alt="First slide">
-            <div class="container">
+            <img class="first-slide">
+            <div class="container"> <br>
               <div class="carousel-caption">
-                <h1>Hack the Evening Away</h1>
+                <br><br>
+                <h1>HACK THE EVENING AWAY: AN INCLUSIVE AND SOCIAL HACKATHON</h1>
                 <p>An inclusive and social hackathon like no other.</p>
-                <p>Saturday, June 30 <br>5pm - 12:30am<p>
+                <p>Saturday, June 30 <br>5pm - 1:00am<p>
                 <p><a class="btn btn-lg btn-primary" href="#signup" role="button">Sign up today</a></p>
               </div>
             </div>
@@ -76,7 +81,8 @@
         </div>
 <br>
 <hr class="featurette-divider">
-<h2 class="featurette featurette-heading">FAQ</h2>
+<div id="faq" class="featurette ">
+<h2 class="featurette-heading">FAQ</h2>
 <div class="row featurette" style="margin-bottom: 15em">
           
             
@@ -101,6 +107,7 @@ Our wonderful judges will provide the hacking challenge and walk around during t
           </div>
 
         </div>
+      </div>
         <p class="lead" style="text-align: center;">Any more q's? Email us! 
 hacktheeveningaway@gmail.com</p>
 <hr class="featurette-divider">
@@ -109,10 +116,11 @@ hacktheeveningaway@gmail.com</p>
 
 
 
+        <div id="ppl"></div>
       
-        <div id="ppl" class="container marketing featurette">
+        <div class="container marketing featurette">
         <!-- Organizers-->
-        <h2 class="featurette-heading">Meet the team: <span class="text-muted">The organizers behind Hack the Night Away.</span></h2>
+        <h2 class="featurette-heading" style="padding-top: 40px; margin-top: -40px;">Meet the team: <span class="text-muted">The organizers behind Hack the Night Away.</span></h2>
         <br>
         <div class="row">
           <div class="col-lg-4">
@@ -185,13 +193,13 @@ hacktheeveningaway@gmail.com</p>
 
       <label for="email">Email Address:</label>
       <input id="email" type="email" name="email" required maxlength="50" placeholder="Email">
-      <label for="tech"> Comfortabilty with Tech:</label>
+      <label for="tech"> Comfortability with Tech:</label>
         <select name="dropdown" size="1">t
-  <option value="very">Very Comfrotable</option>
+  <option value="very">Very Comfortable</option>
   <option value="sort">Sort of Comfortable</option>
   <option value="not">Not Comfortable</option>
 </select>
-      <label for="message">Message:</label>
+      <label for="message">Anything you want us to know?</label>
       <textarea id="message" name="message" rows="10" maxlength="6000" placeholder="Message"></textarea>
 
 
@@ -282,7 +290,7 @@ hacktheeveningaway@gmail.com</p>
       <!-- FOOTER -->
       <footer class="container">
         <p class="float-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2017-2018 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+        <p>&copy; Hack the Evening Away. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
       </footer>
     </main>
 
@@ -291,7 +299,11 @@ hacktheeveningaway@gmail.com</p>
     <!-- Placed at the end of the document so the pages load faster -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
+    <script type="text/javascript">
+      var shiftWindow = function() { scrollBy(0, -50) };
+if (location.hash) shiftWindow();
+window.addEventListener("hashchange", shiftWindow);
+    </script>
     <script type="text/javascript" src="form.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
