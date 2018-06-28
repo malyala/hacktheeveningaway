@@ -10,16 +10,20 @@ body {
   padding-top: 40px;
 }
 
-h1 {
-  font-size: 50px;
-  font-family: brush script;
-}
-
 b {
   font-weight: 700;
 }
 * {
   box-sizing: border-box;
+}
+
+.intro {
+  padding: 2rem;
+  margin: 0rem;
+}
+
+#header {
+  font-size: 25px;
 }
 
 /* Set a background color */
@@ -161,7 +165,6 @@ header{
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
-  border: 1px solid white;
   bottom: 5rem;
   z-index: 10;
 }
@@ -269,8 +272,14 @@ header{
   }
 }
 
+  #header {
+    border: white 1px;
+}
+
 @media (min-width: 62em) {
   .featurette-heading {
     margin-top: 1rem;
   }
 }
+
+
