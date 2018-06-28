@@ -1,4 +1,4 @@
-* GLOBAL STYLES
+ GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
@@ -8,6 +8,9 @@ body {
   color: #5a5a5a;
   overflow: hidden;
   padding-top: 40px;
+  height:100%;
+          position:relative;
+        display:inline;
 }
 
 b {
@@ -107,6 +110,7 @@ b {
   border-color: transparent white transparent transparent;
 }
 
+
 /* Fix the circle for containers on the right side */
 .right::after {
   left: -16px;
@@ -120,8 +124,28 @@ b {
   border-radius: 6px;
 }
 
+.row.featurette {
+  margin-top: 0rem;
+  
+}
+#featurette1{
+  height:350px;
+}
+#faq{
+  height:700px;
+}
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) {
+  /*.featurette::after {
+
+  }*/
+  
+  #featurette1{
+  height:calc(100vw * 1.2);
+}
+#faq{
+  height:calc(100vw * 2.8);
+}
 /* Place the timelime to the left */
   .timeline::after {
     left: 31px;
@@ -152,7 +176,14 @@ b {
     left: 0%;
   }
 }
-
+@media screen and (max-width: 1000px){
+  #featurette1{
+  height:calc(100vw * 1.2);
+}
+#faq{
+  height:calc(100vw * 2.8);
+}
+}
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 header{
@@ -203,10 +234,7 @@ header{
   margin-left: .75rem;
 }
 
-.row.featurette {
-  margin-top: 0rem;
-  height: 20rem;
-}
+
 
 /* Featurettes
 ------------------------- */
@@ -270,6 +298,10 @@ header{
   .featurette-heading {
     font-size: 50px;
   }
+    .row.featurette::after{
+    height:50em;
+  }
+
 }
 
   #header {
@@ -279,6 +311,9 @@ header{
 @media (min-width: 62em) {
   .featurette-heading {
     margin-top: 1rem;
+  }
+  .row.featurette::after{
+    height:50em;
   }
 }
 
