@@ -292,12 +292,15 @@ header{
     left: 0%;
   }
 }
-@media screen and (min-width: 500px) and (max-width: 1000px){
+@media screen and (min-width: 500px) and (max-width: 1200px){
   #featurette1{
-  height:calc(100vw * 1.2);
+  height:100%;
+  overflow: auto;
+
 }
 #faq{
-  height:calc(100vw * 2.8);
+  height:100%;
+  overflow: auto;
 }
 }
 @media (min-width: 40em) {
